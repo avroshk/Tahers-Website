@@ -1,7 +1,10 @@
 <html>
 <head></head>
 <body>
+
 <?php
+    echo "Thank you for filling out the form!";
+    
     $company_name = htmlspecialchars($_POST['comp_name']);
     $core_business_area = $_POST['core_business_area'];
     $address = htmlspecialchars($_POST['address']);
@@ -17,7 +20,7 @@
     $portfolio = htmlspecialchars($_POST['portfolio']);
 
     //this is where the creating of the csv takes place
-    $cvsData = $company_name . "," . $core_business_area . "," . $address . "," . $city . "," . $country . "," . $phone . "," . $email . "," . $products_and_services . "," . $num_branches . "," . $num_employees . "," . $avg_experience . "," . $cert . "," . $portfolio ."\n";
+    $cvsData = "\n" . $company_name . "," . $core_business_area . "," . $address . "," . $city . "," . $country . "," . $phone . "," . $email . "," . $products_and_services . "," . $num_branches . "," . $num_employees . "," . $avg_experience . "," . $cert . "," . $portfolio;
     
     $fp = fopen("data.csv","a"); // $fp is now the file pointer to file $filename
     

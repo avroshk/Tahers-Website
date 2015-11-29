@@ -1,3 +1,6 @@
-Company,Core Business Area,Address,City,Country,Phone,Email,Products/Services,Number of Branches,Number of Employees,Average Exp. Of Employees,Certifications ,Portfolio
-A.V.ROE,Mechanical,sdf,s,f,12312312,avroshk@gatech.edu,Pumps,12,12,41,Sdd,sfsd
-Shura,Mechanical,sdf,s,f,12312312,avroshk@gatech.edu,Pumps,13,12,41,Sdd,sfsd
+Company,Core Business Area,Address,City,Country,Phone,Email,Products/Services,Number of Branches,Number of Employees,Average Exp. Of Employees,Certifications ,Portfolio,
+A.V.ROE,Mechanical,sdf,s,f,12312312,avroshk@gatech.edu,Pumps,12,12,41,Sdd,sfsd,
+Shura,Mechanical,sdf,s,f,12312312,avroshk@gatech.edu,Pumps,13,12,41,Sdd,sfsd,
+Rearden Steel,Civil,56 Metal Street,Vermont,United States,4702632153,reardensteel@gmail.com,Cement,14,200,5-6 years,ISO 9001,Taggart Railways,
+Rearden Steel Industries,Civil,56 Metal Street NE,Vermont,United States,4702632153,reardensteel@gmail.com,Cement,2,2000,2 years,ISO 9002,Taggart Railways, International
+Rearden Steel Industries Ltd,Civil,56 Metal Parkway NE,Vermont,United States,4702632153,reardensteel@gmail.com,Cement,2,2000,2 years,ISO 9002, ISO 9001,Taggart Railways, International MAGLEC Association
